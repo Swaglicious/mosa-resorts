@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mosa Resorts</title>
+        <meta name="author" content="Alex Rodriguez">
+        <meta name="description" content="Get in touch with Mosa Resorts and fill out the form!">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+       <link rel="icon" href="images/favicon.png" type="image/x-icon">
+       <link rel="stylesheet" href="styles.css">
+       </head>
+
+<body>
+    <header>
+        <!-- Title -->
+        <h1> <a href="#">Mosa Resorts</a></h1>
+
+        <!-- NAV -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contactpg">
+        <div id="contact">
+            <section>
+            <h2>Contact Us</h2>
+
+            <!-- intro text -->
+            <p>
+                Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a (*).
+            </p>
+    </section>
+    </div>
+    <div id="contactimg">
+        <img src="images/swiss-peak.jpg" alt="image of snowy mountain with 
+            trees along the side and a river in the center." width="350" height="455">
+        </div>
+        <!-- form -->
+         <div id="formlay">
+         <form action="https://wp.zybooks.com/form-viewer.php" method="POST"
+            target="_blank">
+
+            <label for="my-name">Name*</label>
+            <input type="text" name="my-name" id="my-name" required>
+
+            <label for="my-email">Email*</label>
+            <input type="text" name="my-email" id="my-email" required>
+
+            <label for="my-phone">Phone Number*</label>
+            <input type="tel" name="my-phone" id="my-phone" required>
+
+            <fieldset>
+				<legend>Preferred Method of Contact</legend>
+                <div class="radiobutton">
+				<input type="radio" name="contact-pref" id="pref-email" checked>
+				<label for="pref-email">Email</label>
+				<input type="radio" name="contact-pref" id="pref-phone">
+				<label for="pref-phone">Phone</label>
+            </div>
+			</fieldset>
+
+            <label for="my-comments">Comments*</label>
+            <input type="text" name="my-comments" id="my-comments" required>
+
+            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+         </form>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Mosa Resorts</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+</body>
+</html>
